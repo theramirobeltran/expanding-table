@@ -3,7 +3,6 @@ import TableRow from './TableRow';
 export default ({ headers, rows }) => {
 
     const _renderHeaders = _headers => {
-        console.log(_headers)
         if (!headers) return null;
         return _headers.map(header => <td key={header}>{header}</td>);
     }

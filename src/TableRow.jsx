@@ -23,8 +23,6 @@ export default ({ row }) => {
         )
     }
 
-    console.log(row);
-
     return (
         <>
             <tr>
